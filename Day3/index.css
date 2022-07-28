@@ -1,0 +1,29 @@
+#logo{
+    height: 50px;
+    /* border: 1px solid black; */
+}
+#bigcontainer{
+display: flex;
+height: auto;
+/* border: 1px solid black; */
+gap: 20px;
+justify-content: space-around;
+}
+#midcontainer{
+display: flex;
+gap: 20px;
+/* border: 1px solid black; */
+font-size: 20px;
+margin-top: 10px;
+}
+#inputsearch{
+display: flex;
+margin-top: 10px;
+}
+#buttons{
+height: 50px;
+}
+#b1{
+height: 50px;
+width: 50px;
+}

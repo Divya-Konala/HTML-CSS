@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <style>
+    #container{
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            grid-template-rows: repeat(3,200px);
+            gap: 20px;
+        }
+        #container>div{
+            border: 1px solid grey;
+            font-size: 30px;
+            /* padding: 20px; */
+            border-radius: 5px;
+            background-color: #217867;
+            color: white;
+        }
+        .a{
+            grid-area: 1/1/2/2;
+        }
+        .b{
+            grid-area: 1/2/2/4;
+        }
+        
+        .c{
+            grid-area: 2/1/3/3;
+        }
+        .d{
+            grid-area: 2/3/3/4;
+        }
+        .e{
+            grid-area: 2/4/3/5;
+        }
+        .f{
+            grid-area: 3/1/4/2;
+        }
+        .g{
+            grid-area: 3/2/4/3;
+        }
+        .h{
+            grid-area: 3/3/4/5;
+        }
+        .i{
+            grid-area: 1/4/2/5;
+        }
+        p{
+            padding: 0px 150px 10px 20px;
+            border: 1px solid black;
+        }
+   </style>
+</head>
+<body>
+    <div id="container">
+        <div class="a"><p>A</p></div>
+        <div class="b">B</div>
+        <div class="c">C</div>
+        <div class="d">D</div>
+        <div class="e">E</div>
+        <div class="f">F</div>
+        <div class="g">G</div>
+        <div class="h">H</div>
+        <div class="i">I</div>
+    </div>
+</body>
+</html>

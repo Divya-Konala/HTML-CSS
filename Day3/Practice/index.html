@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <Style>
+        *{
+            background-color: black;
+            color: white;
+        }
+        #bigbox{
+            height: auto;
+            width: auto;
+            display: flex;
+            justify-content: space-around;
+            gap: 20px;
+            background-color: black;
+            color: white;
+        }
+       #logo{
+        height: 40px;
+        width: 80px;
+        /* border: 1px solid black; */
+       }
+       #logobox{
+        margin-top: 10px;
+        /* border: 1px solid black; */
+       }
+       #searchbox{
+        margin-top: 10px;
+        /* border: 1px solid black; */
+       }
+       #imdbpro{
+        margin-top: 10px;
+        color: white;
+       }
+       #lastbox{
+        margin-top: 10px;
+        /* border: 1px solid black;  */
+       }
+       .vertical {
+            border-left: 6px solid white;
+            height: 30px;
+            margin-top: 10px;
+        }
+
+    </Style>
+</head>
+<body>
+    <div id="bigbox">
+        <div id="logobox">
+            <button>
+                <img id="logo" src="https://variety.com/wp-content/uploads/2017/02/imdb1.png?w=681&h=383&crop=1" alt="logo"/>
+            </button>
+        </div>
+        <div>
+            <button style="font-size:20px ;margin-top: 10px;">
+                <img style="background-color: white;" src="https://img.icons8.com/carbon-copy/20/000000/menu.png"/>
+                <b>Menu</b>
+            </button>
+        </div>
+        <div id="searchbox">
+            <select style="width: 50px ;height: 20px; color: black ; background-color: white">
+                <option value="all">All</option>
+                <option value="title">Title</option>
+                <option value="tveps">TV Episodes</option>
+                <option value="celebs">Celebs</option>
+                <option value="comp">Companies</option>
+                <option value="key">Keywords</option>
+                <option value="advsrch">Advanced Search Options</option>
+            </select>
+            <input style="width: 500px ; height:20px; background-color: white;" type="text" placeholder="Search IMDb">
+            <button>
+                <img style="background-color: white" src="https://img.icons8.com/ios-filled/20/737373/search--v1.png"/>
+            </button>
+        </div>
+        <div id="imdbpro">
+            <button>
+                <img style="height:30px ; width:60px ; background-color: white;" src="https://m.media-amazon.com/images/G/01/IMDbPro/images/IMDbPro_payments_2x.png" alt="imdbpro"/>
+            </button>
+        </div>
+        <div class="vertical">
+
+        </div>
+    
+        <div id="lastbox">
+            <button>
+                <img style="background-color: white" src="https://img.icons8.com/external-smashingstocks-glyph-smashing-stocks/20/000000/external-book-mark-web-smashingstocks-glyph-smashing-stocks-2.png"/>
+                <b>Watchlist</b>
+            </button>
+            <button>
+                <b>Sign IN</b>
+            </button>
+            <Select>
+                <option value="en"><b>EN</b></option>
+                <option value="hi"><b>HIN</b></option>
+                <option value="tel"><b>TEL</b></option>
+                <option value="tam"><b>TAM</b></option>
+            </Select>
+        </div>
+    </div>
+</body>
+</html>

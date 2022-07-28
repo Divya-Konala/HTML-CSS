@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+       body{
+        background-color: wheat;
+       }
+        #container{
+            display: grid;
+            grid-template-rows: repeat(3,230px);
+            grid-template-columns:repeat(3,1fr);
+            gap: 10px 70px;
+        }
+        #container>div{
+            margin: 30px;
+           background-color: white;
+           border-spacing: 5px;
+           /* border: 1px solid black; */
+           justify-content: space-around;
+           box-shadow: rgba(48, 48, 48, 0.2) 0px 2px 8px 0px;
+           border-radius: 10px;
+        }
+        #container>div>div{
+            margin: 20px;
+            /* background-color: white; */
+        }
+        /* .a{
+            grid-area: 1/1/2/2;
+        }
+        .b{
+            grid-area: 1/2/2/3;
+        }
+        .c{
+            grid-area: 1/3/2/4;
+        }
+        .d{
+            grid-area: 2/1/3/2;
+        }
+        .e{
+            grid-area: 2/2/3/3;
+        }
+        .f{
+            grid-area: 2/3/3/4;
+        }
+        .g{
+            grid-area: 3/1/4/2;
+        }
+        .h{
+            grid-area: 3/2/4/3;
+        }
+        .i{
+            grid-area: 3/3/4/4;
+        } */
+        #coffee{
+            display: flex;
+            justify-content: space-around;
+            font-size: larger;
+        }
+        #price{
+            color: goldenrod;
+        }
+        #desc{
+            font-size: large;
+            padding-top: 10px;
+            padding-left: 50px;
+            width: 300px;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div class="a">
+            <div id="coffee">
+                <div><b>Cappuchino</b></div>
+                <div id="price"><b>49$</b></div>
+            </div>
+            <div id="desc">
+                Usage of internet is becoming more common due to rapid advance.
+            </div>
+        </div>
+        <div class="b">
+            <div id="coffee">
+                <div><b>Americano</b></div>
+                <div id="price"><b>49$</b></div>
+            </div>
+            <div id="desc">
+                Usage of internet is becoming more common due to rapid advance.
+            </div>
+        </div>
+        <div class="c">
+            <div id="coffee">
+                <div><b>Espresso</b></div>
+                <div id="price"><b>49$</b></div>
+            </div>
+            <div id="desc">
+                Usage of internet is becoming more common due to rapid advance.
+            </div>
+        </div>
+        <div class="d">
+            <div id="coffee">
+                <div><b>Macchiato</b></div>
+                <div id="price"><b>49$</b></div>
+            </div>
+            <div id="desc">
+                Usage of internet is becoming more common due to rapid advance.
+            </div>
+        </div>
+        <div class="e">
+            <div id="coffee">
+                <div><b>Mocha</b></div>
+                <div id="price"><b>49$</b></div>
+            </div>
+            <div id="desc">
+                Usage of internet is becoming more common due to rapid advance.
+            </div>
+        </div>
+        <div class="f">
+            <div id="coffee">
+                <div><b>Coffee Latte</b></div>
+                <div id="price"><b>49$</b></div>
+            </div>
+            <div id="desc">
+                Usage of internet is becoming more common due to rapid advance.
+            </div>
+        </div>
+        <div class="g">
+            <div id="coffee">
+                <div><b>Piccolo Latte</b></div>
+                <div id="price"><b>49$</b></div>
+            </div>
+            <div id="desc">
+                Usage of internet is becoming more common due to rapid advance.
+            </div>
+        </div>
+        <div class="h">
+            <div id="coffee">
+                <div><b>Ristretto</b></div>
+                <div id="price"><b>49$</b></div>
+            </div>
+            <div id="desc">
+                Usage of internet is becoming more common due to rapid advance.
+            </div>
+        </div>
+        <div class="i">
+            <div id="coffee">
+                <div><b>Affogato</b></div>
+                <div id="price"><b>49$</b></div>
+            </div>
+            <div id="desc">
+                Usage of internet is becoming more common due to rapid advance.
+            </div>
+        </div>
+    </div>
+</body>
+</html>

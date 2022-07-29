@@ -1,0 +1,16 @@
+table{
+    text-align: center;
+    margin: auto;
+}
+input{
+margin: 3px;
+}
+#bigbox{
+    text-align: center; 
+}
+#list{
+    width: 300px;
+    height: 200px;
+    margin: auto;
+    padding: 10px;
+}

@@ -1,0 +1,39 @@
+
+        #bigbox{
+            margin-left: 300px;
+            margin-right: 300px;
+            text-align: center;
+        }
+        #plan{
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+            margin: 20px;
+        }
+        #plan>div{
+            box-shadow: rgba(11, 11, 11, 0.2) 0px 7px 29px 0px;
+            margin: 20px;
+            padding: 20px;
+        }
+        #plan>div>div{
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+        #price{
+            line-height: 0.5px;
+        }
+        button{
+            font-size: large;
+            padding: 10px;
+            background-color: white;
+            border: 2px solid blue;
+            color: blue;
+        }
+        #heading{
+            margin-left: 100px;
+            margin-right: 100px;
+        }
+        button:hover{
+            background-color: blue;
+            color: white;
+        }

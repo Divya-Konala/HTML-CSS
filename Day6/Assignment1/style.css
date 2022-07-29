@@ -1,0 +1,23 @@
+div {
+    text-align: center;
+  }
+  #headbox{
+    line-height: 50px;
+  }
+  p {
+    font-size: large;
+  }
+  #rooms{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+  }
+  img{
+    height: 300px;
+    width: 400px;
+  }
+  #subheading{
+    margin-left: 300px;
+    margin-right: 300px;
+    line-height: 25px;
+  }

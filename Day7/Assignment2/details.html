@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Details</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="bigbox">
+        <div id="text">
+            <label for="name">NAME</label> <br/>
+            <input type="text" id="name"> <br/> <br/> <br/>
+            <label for="email">E-MAIL</label> <br/>
+            <input type="text" id="email"> <br/> <br/> <br/>
+            <label for="mobile">MOBILE</label> <br/>
+            <input type="text" id="mobile">
+            <p style="color: red;">Enter a valid mobile number</p> <br/>
+            <button onclick="register()">
+                REGISTER
+            </button>
+        </div>
+        <div id="block">
+            <h2>NAME</h2>
+            <h1>DIVYA</h1><br/>
+            <h2>E_MAIL</h2>
+            <h2>divya@gmail.com</h2><br/>
+            <h2>MOBILE</h2>
+            <h2>987456321</h2>
+        </div>
+    </div>
+    
+</body>
+</html>
+<script>
+    function register(){
+        alert("Your details have been registered successfully!")
+    }
+</script>

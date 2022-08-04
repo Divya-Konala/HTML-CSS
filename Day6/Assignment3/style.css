@@ -1,0 +1,27 @@
+#bigbox {
+display: grid;
+grid-template-rows: repeat(3, 1fr);
+grid-template-columns: repeat(3, 1fr);
+gap: 10px;
+}
+#picture{
+text-align: center;
+margin-bottom: 70px;
+box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+#pic{
+height: 200px;
+width: 400px;
+}
+#type{
+display: flex;
+font-size: small;
+text-align: left;
+margin-left: 33px;
+margin-bottom: 40PX;
+}
+#desc{
+margin-left: 42px;
+font-size: small;
+text-align: left;
+}

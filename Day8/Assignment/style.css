@@ -1,0 +1,120 @@
+.sub{
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    /* border: 1px solid black; */
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+}
+.menu>div:hover{
+    background-color: #f5f5f5;
+    border-radius: 10px;
+}
+.menu>div{
+    padding: 0px 10px 0px 10px;;
+}
+ button{
+    display: flex;
+    justify-content: space-between;
+    background-color: #00baf2 ;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    color: white;
+    border-radius: 30px;
+    height: 40px;
+    width: 110px;
+    font-family: sans-serif; 
+    padding-left: 10px;
+}
+ button:hover{
+    background-color: #002970
+}
+.smile p{
+    /* border: 1px solid black; */
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 700px;
+    height: 50px;
+    padding: 5px 0px 0px 0px;
+    /* margin: 20px 0px 10px 0px; */
+    background-color: #f5f5f5;
+}
+.menu>#menu1:hover #dropdown {
+    display: block;
+}
+.menu>#menu1:hover #drop {
+    background-color: rgb(212, 210, 210);
+}
+#dropdown {
+    font-family: sans-serif;
+    font-weight: 550;
+    font-size: 15px;
+    margin-left: -10px;
+    border-radius: 10px;
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+#dropdown a:hover {
+    background-color: white;
+  }
+  #dropdown a {
+    margin: 10px 0px 10px 0px;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+  }
+  #profile:hover #user{
+    display: inline-block;
+    margin: 7px 0px 0px 0px;
+  }
+  #profile #user{
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 99;
+}
+#profile{
+        position: relative;
+        display: inline-block;
+        display: flex;
+        gap: 10px;
+        margin: -5px 0px 0px 0px;
+}
+button{
+    border: none;
+}
+a{
+    position: relative;
+    display: inline-block;
+}
+a #arrow{
+    position: absolute;
+    display: none;
+    top: 1;
+    right: 0;
+    z-index: 100;
+    margin-right: 15px;
+}
+a:hover #arrow{
+    display: inline-block;
+}
+/* **************************************** */
+
+

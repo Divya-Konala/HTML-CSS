@@ -1,0 +1,111 @@
+body {
+  background-color: black;
+  color: #ffffff;
+}
+main {
+  position: absolute;
+  width: 1181px;
+  height: 712px;
+  left: 198px;
+  /* top: 154px; */
+}
+h1 {
+  width: 600px;
+  /* height: 144px; */
+  left: 202px;
+  top: 154px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 77px;
+}
+::placeholder {
+  color: #ffffff;
+  font-family: sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 20px;
+}
+.ipBoxes {
+  width: 1177px;
+  height: 46.01px;
+  left: 202px;
+  top: 278px;
+  background-color: black;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+label {
+  width: 244px;
+  height: 29px;
+  left: 229px;
+  top: 650px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+}
+#tc {
+  width: 430px;
+  height: 29px;
+  left: 232px;
+  top: 709px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+}
+button {
+  width: 226px;
+  height: 58px;
+  left: 198px;
+  top: 808px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  color: #000000;
+}
+input[type="radio"]{
+  width: 17px;
+  height: 17px;
+  /* left: 202px;
+  top: 656px; */
+
+  border: 1px solid #ffffff;
+  border-radius: 1000px;
+  color: #000000;
+  background-color: #000000;
+    /* to remove the standard css of radio button */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  app
+}
+input[type="radio"]:checked{
+    background-color: #ffffff;
+}
+input[type="checkbox"]:ch {
+  width: 21px;
+  height: 21px;
+  left: 198px;
+  top: 713px;
+  border: 1px solid #ffffff;
+}
+input[type="checkbox"]::before{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+input[type="checkbox"]:checked{
+    accent-color: #ffffff;
+}

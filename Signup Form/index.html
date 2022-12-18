@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Signup Form</title>
+    <link rel="icon" href="./favicon.jpg" />
+    <link rel="stylesheet" href="styles.css" />
+    <meta
+      name="description"
+      content="Signup page. Requires name, e-mail, password, confirm password, date of
+    Birth, designation, Acceptance to T&C & Signup button."
+    />
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <h1>Signup</h1>
+      <form>
+        <input
+          class="ipBoxes"
+          type="text"
+          placeholder="Full Name"
+          required
+        /><br /><br />
+        <input
+          class="ipBoxes"
+          type="email"
+          placeholder="Email"
+          required
+        /><br /><br />
+        <input
+          class="ipBoxes"
+          type="password"
+          placeholder="Password"
+          required
+        /><br /><br />
+        <input
+          class="ipBoxes"
+          type="password"
+          placeholder="Confirm Password"
+          required
+        /><br /><br />
+        <input
+          class="ipBoxes"
+          type="text"
+          placeholder="MM/DD/YYYY"
+          onfocus="(this.type='date')"
+          required
+        />
+        <br /><br />
+        <input class="radio" type="radio" name="designation" value="student" required />
+        <label for="student">Student</label>
+        <input class="radio" type="radio" name="designation" value="employee" />
+        <label for="employee">Employee</label><br /><br />
+        <input class="checkbox" type="checkbox" required />
+        <label id="tc" for="t&c"
+          >I agree to all the Terms and conditions</label
+        ><br /><br /><br />
+        <button type="submit">Signup</button>
+      </form>
+    </main>
+    <footer></footer>
+  </body>
+</html>

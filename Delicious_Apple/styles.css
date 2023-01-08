@@ -1,7 +1,10 @@
 /* your code here */
 body{
+    box-sizing: border-box;
     background-color: springgreen;
-    padding: 4% 0px;
+    padding: 5% 0px 0px;
+    font-family: 'Nunito', sans-serif;
+    color: gray;
 }
 .product{
     display: flex;
@@ -14,7 +17,7 @@ body{
 }
 .product__photo{
     position: relative;
-    left: -40px;
+    left: -30px;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
     background-color: white;
     /* border: 1px solid black; */
@@ -42,10 +45,10 @@ body{
     margin-bottom: 5px;
 }
 .title span{
-    color: gray;
+    color: rgba(0, 0, 0, 0.393);;
 }
 .price{
-    padding: 20px 0px;
+    padding: 10px 0px;
     color: red;
     font-size: 20px;
 }
@@ -61,21 +64,26 @@ body{
     font-size: 16px;
     font-weight: 400px;
 }
+.description ul{
+    color: rgba(0, 0, 0, 0.726);
+    font-weight: 100;
+    font-size: 14px;
+}
 .variant{
-    padding-bottom: 10px;
+    margin-bottom: 10px;
 }
 .variant img{
     width: 30px;
     margin: 0px 5px;
 }
 .variant img:hover{
-    scale: 120%;
-    border: 1px solid gray;
+    border:1px solid rgba(0, 0, 0, 0.393);
 }
 .addtocart_button{
     margin-top: 30px;
 }
 .addtocart_button button{
+    font-family: 'Nunito', sans-serif;
     color: white;
     font-size: 15px;
     font-weight: 500px;
@@ -86,6 +94,8 @@ body{
 }
 .photo-main>img{
     width: 280px;
+    position: relative;
+    left: -50px;
 }
 .photo-album img{
     border: 1px solid rgba(128, 128, 128, 0.867);

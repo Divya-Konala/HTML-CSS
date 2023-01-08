@@ -1,0 +1,99 @@
+/* your code here */
+body{
+    background-color: springgreen;
+    padding: 4% 0px;
+}
+.product{
+    display: flex;
+    /* border: 1px solid black; */
+    width: fit-content;
+    background-color: white;
+    border-radius: 10px;
+    margin: auto;
+    padding: 40px 0px;
+}
+.product__photo{
+    position: relative;
+    left: -40px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    background-color: white;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+}
+.photo-container .photo-main .controls{
+    /* border: 1px solid black; */
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.photo-container .photo-album ul{
+    /* border: 1px solid black; */
+    display: flex;
+    list-style-type: none;
+    padding: 0px 10px;
+}
+.product .product__info{
+    padding: 0px 25px 0px 0px;
+}
+.title>h1{
+    font-size: 25px;
+    font-weight: bolder;
+    margin-bottom: 5px;
+}
+.title span{
+    color: gray;
+}
+.price{
+    padding: 20px 0px;
+    color: red;
+    font-size: 20px;
+}
+.price span{
+    font-size: 50px;
+}
+.variant ul{
+    display: flex;
+    list-style: none;
+}
+.variant h3, .description h3{
+    color: gray;
+    font-size: 16px;
+    font-weight: 400px;
+}
+.variant{
+    padding-bottom: 10px;
+}
+.variant img{
+    width: 30px;
+    margin: 0px 5px;
+}
+.variant img:hover{
+    scale: 120%;
+    border: 1px solid gray;
+}
+.addtocart_button{
+    margin-top: 30px;
+}
+.addtocart_button button{
+    color: white;
+    font-size: 15px;
+    font-weight: 500px;
+    padding: 15px 30px;
+    border-radius: 5px;
+    background-color: red;
+    border: none
+}
+.photo-main>img{
+    width: 280px;
+}
+.photo-album img{
+    border: 1px solid rgba(128, 128, 128, 0.867);
+    border-radius: 5px;
+    margin: 10px 3px 0px;
+}
+.photo-main{
+    background-color: greenyellow;
+    border-radius: 10px 10px 0px 0px;
+    padding-bottom: 30px;
+}

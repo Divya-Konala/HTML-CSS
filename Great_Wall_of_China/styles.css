@@ -1,0 +1,9 @@
+body{
+    background: url("https://images.chinahighlights.com/allpicture/2021/02/894c3674f768479fbc4a7afe_cut_800x500_61.jpg") no-repeat center center fixed;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+h1{
+    text-align: center;
+}
